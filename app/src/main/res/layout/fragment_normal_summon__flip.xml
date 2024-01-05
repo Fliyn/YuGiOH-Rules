@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Summoningrules.Normal_summon_Flip">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/material_on_primary_emphasis_high_type"
+                android:gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="Flip Summon Rules"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="83dp"
+                    android:gravity="center"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="Flip Summon is a method of Summoning. A player can Flip Summon a monster on the field by flipping a face-down monster to face-up(Attack Position) during their Main Phase."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="A player can perform an unlimited number of Flip Summons per turn."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="You cannot Flip Summon a monster at the same turn it was Summoned, Normal Set, declared an attack (even if the attack was negated or canceled), or its battle position was changed manually that turn."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="A face-down monster flipped into face-up Attack Position by a card effect such as &quot;Book of Taiyou&quot; or &quot;Ancient Forest&quot; is not considered a Flip Summon. Flip Summon does not take up your Normal Summon/Set for the turn."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="You cannot flip summon a monster in face-up Defence Position."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_on_primary_emphasis_high_type"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="If the attacked monster has an effect that activates when it is flipped face-up (such as a Flip effect), that effect will NOT activate at this time. Its effect will activate AFTER damage calculation, even if the flipped monster itself leaves the Monster Zone before then."
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

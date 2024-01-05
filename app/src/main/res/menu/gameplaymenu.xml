@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/boş"
+        android:title="" />
+    <item
+        android:id="@+id/boş2"
+        android:title="-----Turn-----" />
+    <item
+        android:id="@+id/Turn"
+        android:title="Turn" />
+    <item
+        android:id="@+id/Draw_Phase"
+        android:title="Draw Phase" />
+    <item
+        android:id="@+id/Standby_Phase"
+        android:title="Standby Phase" />
+    <item
+        android:id="@+id/Mainphase1"
+        android:title="Main Phase 1" />
+    <item
+        android:id="@+id/Battle_Phase"
+        android:title="Battle Phase" />
+    <item
+        android:id="@+id/Mainphase2"
+        android:title="Main Phase 2" />
+    <item
+        android:id="@+id/End_Phase"
+        android:title="End Phase" />
+
+
+    <item
+        android:id="@+id/boş3"
+        android:title="-----Card Positions-----" />
+    <item
+        android:id="@+id/Battle_position"
+        android:title="Battle Position" />
+    <item
+        android:id="@+id/Battle_position_change"
+        android:title="Battle Position Change" />
+
+
+    <item
+        android:id="@+id/boş4"
+        android:title="-----Card Effects-----" />
+    <item
+        android:id="@+id/Effect_Continous"
+        android:title="Continuous Effect" />
+    <item
+        android:id="@+id/Effect_ignition"
+        android:title="Ignition Effect" />
+    <item
+        android:id="@+id/Effect_quick"
+        android:title="Quick Effect" />
+    <item
+        android:id="@+id/Effect_Trigger"
+        android:title="Trigger Effect" />
+
+
+    <item
+        android:id="@+id/boş5"
+        android:title="------Actions-----" />
+    <item
+        android:id="@+id/Excavate"
+        android:title="Excavate" />
+    <item
+        android:id="@+id/Look"
+        android:title="Look" />
+    <item
+        android:id="@+id/Reveal"
+        android:title="Reveal" />
+    <item
+        android:id="@+id/equip"
+        android:title="Equip" />
+    <item
+        android:id="@+id/Summon"
+        android:title="Summon" />
+    <item
+        android:id="@+id/Set"
+        android:title="Set" />
+    <item
+        android:id="@+id/Attach"
+        android:title="Xyz A+D+T+M+Rulings" />
+    <item
+        android:id="@+id/Banish"
+        android:title="Banish" />
+    <item
+        android:id="@+id/Destroy"
+        android:title="Destroy" />
+    <item
+        android:id="@+id/Negate"
+        android:title="Negate" />
+    <item
+        android:id="@+id/Discard"
+        android:title="Discard" />
+    <item
+        android:id="@+id/Leave_field"
+        android:title="Leave the field" />
+
+
+    <item
+        android:id="@+id/boş6"
+        android:title="------General------" />
+    <item
+        android:id="@+id/gamestate"
+        android:title="Game State" />
+    <item
+        android:id="@+id/Life_Points"
+        android:title="Life Points" />
+    <item
+        android:id="@+id/Hand_Limit"
+        android:title="Hand Limit" />
+    <item
+        android:id="@+id/Public_knowledge"
+        android:title="Public knowledge" />
+    <item
+        android:id="@+id/Face_down"
+        android:title="Face-down" />
+    <item
+        android:id="@+id/Face_up"
+        android:title="Face-up" />
+    <item
+        android:id="@+id/Flip"
+        android:title="Flip" />
+    <item
+        android:id="@+id/Owner"
+        android:title="Owner" />
+    <item
+        android:id="@+id/Possess"
+        android:title="Possess" />
+
+
+    <item
+        android:id="@+id/boş7"
+        android:title="------Duel------" />
+    <item
+        android:id="@+id/Duel"
+        android:title="Duel" />
+    <item
+        android:id="@+id/Match"
+        android:title="Match" />
+    <item
+        android:id="@+id/Surrender"
+        android:title="Surrender" />
+
+
+</menu>

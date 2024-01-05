@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/empty"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:title="" />
+    <item
+        android:id="@+id/Deck_zone"
+        android:title="Deck" />
+    <item
+        android:id="@+id/Extra_Deck"
+        android:title="Extra Deck" />
+    <item
+        android:id="@+id/Monster_zone"
+        android:title="Main Monster Zone" />
+    <item
+        android:id="@+id/Extra_Monster_Zone"
+        android:title="Extra Monster Zone" />
+    <item
+        android:id="@+id/Field_Zone"
+        android:title="Field Zone" />
+    <item
+        android:id="@+id/Graveyard"
+        android:title="Graveyard Zone(GY)" />
+    <item
+        android:id="@+id/Spell_zone"
+        android:title="Spell &amp; Trap Zone" />
+    <item
+        android:id="@+id/Pendulum_zone"
+        android:title="Pendulum Zone" />
+</menu>

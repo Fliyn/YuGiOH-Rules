@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/empty"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:title="" />
+    <item
+        android:id="@+id/Monster"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Normal Monsters" />
+    <item
+        android:id="@+id/EffectMonster"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Effect Monsters" />
+    <item
+        android:id="@+id/Spell"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Spell Cards" />
+
+    <item
+        android:id="@+id/Trap"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Trap Cards" />
+    <item
+        android:id="@+id/xyz"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Xyz Monsters" />
+    <item
+        android:id="@+id/sync"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Synchro Monsters" />
+    <item
+        android:id="@+id/pen"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Pendulum Monsters" />
+    <item
+        android:id="@+id/rit"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Ritual Monsters" />
+    <item
+        android:id="@+id/fus"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Fusion Monsters" />
+    <item
+        android:id="@+id/link"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Link Monsters" />
+    <item
+        android:id="@+id/token"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Token Monsters" />
+    <item
+        android:id="@+id/counter"
+        android:background="@color/material_on_primary_emphasis_high_type"
+        android:textSize="20sp"
+        android:title="Counters" />
+</menu>

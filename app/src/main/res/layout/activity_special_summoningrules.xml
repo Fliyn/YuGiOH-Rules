@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialSummoningrules.Special_Summoningrules">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tablayout3"
+                android:layout_marginBottom="0dp" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:background="#003287"
+                app:tabTextColor="#ffc100"
+                >
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="SpecIal Summon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="XYZ Summon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="Synchro Summon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="Pendulum Summon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="RItual Summon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="FusIon Summon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tab10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#345323"
+                    android:text="LInk Summons" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
